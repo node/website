@@ -1,0 +1,18 @@
+[
+    {
+        "title": "首页",    
+        "link": "/"
+    },
+    {
+        "title": "概念",
+        "link": "/#concepts"
+    },
+    {
+        "title": "动态",
+        "link": "/#activities"
+    },
+    {
+        "title": "成员",
+        "link": "/#members"
+    }
+]

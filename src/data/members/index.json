@@ -1,8 +1,9 @@
 [
     {
         "name": "杨振涛",
-        "avatar": "flex-ui-assets/images/teams/avatar1.png",
+        "avatar": "members/node.jpg",
         "role": "Maintainer",
+        "github": "node",
         "intro": "",
         "tags": [
             "创始人"
@@ -10,8 +11,9 @@
     },
     {
         "name": "李宇飞",
-        "avatar": "flex-ui-assets/images/teams/avatar1.png",
+        "avatar": "members/yufeiminds.jpeg",
         "role": "Maintainer",
+        "github": "yufeiminds",
         "intro": "",
         "tags": [
             "社区基础设施"

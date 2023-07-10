@@ -19,13 +19,13 @@ export default function Home() {
                   <ul className='mb-6'>
                     {navs.map((nav) => (
                       <li key={nav.title}>
-                      <a
-                        className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
-                        href={nav.link}
-                      >
-                        {nav.title}
-                      </a>
-                    </li>
+                        <a
+                          className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
+                          href={nav.link}
+                        >
+                          {nav.title}
+                        </a>
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -76,16 +76,16 @@ export default function Home() {
                       />
                     </a>
                     <ul className='py-6'>
-                    {navs.map((nav) => (
-                      <li key={nav.title}>
-                      <a
-                        className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
-                        href={nav.link}
-                      >
-                        {nav.title}
-                      </a>
-                    </li>
-                    ))}
+                      {navs.map((nav) => (
+                        <li key={nav.title}>
+                          <a
+                            className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
+                            href={nav.link}
+                          >
+                            {nav.title}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                     <div className='flex flex-wrap'>
                       <div className='w-full mb-2'>
@@ -152,15 +152,15 @@ export default function Home() {
                 </div>
                 <div className='w-1/2 xl:w-1/3'>
                   <ul className='hidden xl:flex xl:justify-center'>
-                  {navs.map((nav) => (
+                    {navs.map((nav) => (
                       <li className='mr-12' key={nav.title}>
-                      <a
-                        className='text-coolGray-500 hover:text-coolGray-900 font-medium'
-                        href={nav.link}
-                      >
-                        {nav.title}
-                      </a>
-                    </li>
+                        <a
+                          className='text-coolGray-500 hover:text-coolGray-900 font-medium'
+                          href={nav.link}
+                        >
+                          {nav.title}
+                        </a>
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -217,16 +217,16 @@ export default function Home() {
                       />
                     </a>
                     <ul className='py-6'>
-                    {navs.map((nav) => (
-                      <li key={nav.title}>
-                      <a
-                        className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
-                        href={nav.link}
-                      >
-                        {nav.title}
-                      </a>
-                    </li>
-                    ))}
+                      {navs.map((nav) => (
+                        <li key={nav.title}>
+                          <a
+                            className='block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md'
+                            href={nav.link}
+                          >
+                            {nav.title}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                     <div className='flex flex-wrap'>
                       <div className='w-full mb-2'>

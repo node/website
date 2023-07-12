@@ -1,5 +1,4 @@
 import members from '@/data/members/index.json';
-import Link from 'next/link';
 
 export const MemberSection = () => (
     <section
@@ -42,8 +41,7 @@ export const MemberSection = () => (
             <div className='flex flex-wrap -mx-4'>
                 {
                     members.map(member => (
-                        <div className='w-full md:w-1/2 lg:w-1/3 px-4 mb-10'>
-
+                        <div className='w-full md:w-1/2 lg:w-1/3 px-4 mb-10' key={member.name}>
                             <div className='h-full py-8 px-10 bg-coolGray-50 rounded-md text-center'>
                                 <img
                                     className='w-24 h-24 mx-auto mb-6 rounded-full'

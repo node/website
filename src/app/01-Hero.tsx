@@ -31,7 +31,7 @@ export const HeroSection = () => (
                 <a className='block max-w-max' href='#'>
                   <img
                     className='h-8'
-                    src='flex-ui-assets/logos/flex-ui-blue-light.svg'
+                    src='/logos/icon.png'
                     alt=''
                   />
                 </a>

@@ -109,7 +109,7 @@ export const ActivitySection = () => {
                         if (activity.category !== currentCategoryName && currentCategory !== '') {
                             return <></>;
                         }
-                        return <div className='w-full md:w-1/2 px-4 mb-8'>
+                        return <div className='w-full md:w-1/2 px-4 mb-8' key={activity.title}>
                             <a className='block mb-6 overflow-hidden rounded-md' href='#'>
                                 <img
                                     className='w-full'

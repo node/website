@@ -3,10 +3,6 @@ import members from '@/data/members/index.json';
 export const MemberSection = () => (
     <section
         className='py-2 bg-white'
-        style={{
-            backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
-            backgroundPosition: 'center',
-        }}
     >
         <div className='container px-4 mx-auto'>
             <div className='mb-16 text-center'>

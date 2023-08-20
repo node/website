@@ -28,12 +28,15 @@ export const HeroSection = () => (
           <nav className='flex justify-between p-6 px-4'>
             <div className='flex justify-between items-center w-full'>
               <div className='w-1/2 xl:w-1/3'>
-                <a className='block max-w-max' href='#'>
+                <a className='flex max-w-max' href='/'>
                   <img
-                    className='h-8'
+                    className='h-8 inline-block'
                     src='/logos/icon.png'
                     alt=''
                   />
+                  <span
+                    className='py-1 inline-block font-bold'
+                  >平台工程社区 · 中国</span>
                 </a>
               </div>
               <div className='w-1/2 xl:w-1/3'>
@@ -202,7 +205,7 @@ export const HeroSection = () => (
                   />
                   <img
                     className='relative rounded-7xl'
-                    src='flex-ui-assets/images/headers/header.jpg'
+                    src='images/hero.png'
                     alt=''
                   />
                 </div>

@@ -36,10 +36,6 @@ export const ActivitySection = () => {
     }
     return <section
         className='py-24 wave-top'
-        style={{
-            backgroundImage: 'url("flex-ui-assets/elements/pattern-dark.svg")',
-            backgroundPosition: 'left top',
-        }}
     >
         <div className='wave wave-top w-full text-coolGray-900'>
             <svg

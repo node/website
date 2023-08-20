@@ -105,7 +105,7 @@ export const ConceptSection = () => (
                     <div className='w-full lg:w-1/3 px-4 mb-8 lg:mb-0'>
                         <img
                             className='mx-auto'
-                            src='flex-ui-assets/images/features/stock.png'
+                            src='images/main.png'
                             alt=''
                         />
                     </div>
@@ -160,10 +160,6 @@ export const ConceptSection = () => (
         </section>
         <section
             className='py-4 md:py-6 bg-white'
-            style={{
-                backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
-                backgroundPosition: 'center',
-            }}
         >
             <div className='container px-4 mx-auto'>
                 <div className='max-w-4xl mx-auto text-center'>
